@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e75b6e-91c5-49ed-9c94-d26081d4d597" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/HW#2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Andersen.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HM#1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/src/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/src/.idea/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/src/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HM#1/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/src/main/java/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/HM#1/src/main/java/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/src/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/src/test/java/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HM#1/src/test/java/MyArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/src/test/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#1/target/test-classes/MyArrayListTest.class" beforeDir="false" />
+    <list default="true" id="97e75b6e-91c5-49ed-9c94-d26081d4d597" name="Changes" comment="в процессе 1.0">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW#2/src/test/java/MyArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW#2/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW#2/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW#2/src/main/java/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW#2/src/main/java/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW#2/target/classes/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/HW#2/target/classes/MyArrayList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +40,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW#2/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -111,8 +97,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.Unnamed" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Maven.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -128,7 +114,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641135613055</updated>
-      <workItem from="1641135614150" duration="947000" />
+      <workItem from="1641135614150" duration="1184000" />
+      <workItem from="1641136814374" duration="4880000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1641135817033</created>
@@ -137,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641135817033</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="в процессе 1.0">
+      <created>1641136715831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641136715831</updated>
+    </task>
+    <task id="LOCAL-00003" summary="в процессе 1.0">
+      <created>1641136724329</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641136724329</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +157,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="в процессе 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="в процессе 1.0" />
   </component>
 </project>

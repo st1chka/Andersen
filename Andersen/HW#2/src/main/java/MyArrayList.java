@@ -6,7 +6,6 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
     private int size = 0;
 
 
-
     @Override
     public int size() {
         return size;
@@ -19,7 +18,7 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
 
     @Override
     public boolean add(E element) {
-        if (size == array.length - 1) {
+        if (size == array.length) {
             resize(array.length);
         }
         array[size++] = element;
@@ -49,6 +48,11 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
         return false;
     }
 
+    @Override
+    public boolean containsAll(Collection<?> c) {
+        return false;
+    }
+
 
     @Override
     public E remove(int index) {
@@ -66,17 +70,23 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
 
     @Override
     public E get(int index) {
-        return (E)array[index];
+        try {
+            return (E) array[index];
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.err.println(e.getMessage());
+        }
+      return null;
     }
 
     @Override
     public E set(int index, Object element) {
-        return (E) (array[index] = element);
-    }
 
-    @Override
-    public boolean containsAll(Collection<?> c) {
-        return false;
+        try {
+            return (E) (array[index] = element);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.err.println(e.getMessage());
+        }
+        return null;
     }
 
     @Override
@@ -91,14 +101,14 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
 
     @Override
     public boolean removeAll(Collection<?> c) {
-        return false;
+        Arrays.fill(array, null);
+        return true;
     }
 
     @Override
     public boolean retainAll(Collection<?> c) {
         return false;
     }
-
 
     @Override
     public int indexOf(Object element) {
