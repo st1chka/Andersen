@@ -56,9 +56,10 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
 
     @Override
     public E remove(int index) {
-        array[index] = null;
+        array[index] = 0;
         if (array.length - 1 - index >= 0) {
             System.arraycopy(array, index + 1, array, index, array.length - 1 - index);
+            array[array.length - 1] = null;
         }
         return null;
     }
@@ -70,12 +71,13 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
 
     @Override
     public E get(int index) {
+
         try {
             return (E) array[index];
         } catch (ArrayIndexOutOfBoundsException e) {
             System.err.println(e.getMessage());
         }
-      return null;
+        return null;
     }
 
     @Override
@@ -101,7 +103,8 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
 
     @Override
     public boolean removeAll(Collection<?> c) {
-        Arrays.fill(array, null);
+        array = new Object[array.length];
+        size = 0;
         return true;
     }
 

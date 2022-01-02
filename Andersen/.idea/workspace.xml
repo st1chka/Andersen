@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e75b6e-91c5-49ed-9c94-d26081d4d597" name="Changes" comment="в процессе 1.0">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW#2/src/test/java/MyArrayListTest.java" afterDir="false" />
+    <list default="true" id="97e75b6e-91c5-49ed-9c94-d26081d4d597" name="Changes" comment="в процессе 2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW#2/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW#2/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW#2/src/main/java/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW#2/src/main/java/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW#2/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/HW#2/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW#2/target/classes/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/HW#2/target/classes/MyArrayList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641135613055</updated>
       <workItem from="1641135614150" duration="1184000" />
-      <workItem from="1641136814374" duration="4880000" />
+      <workItem from="1641136814374" duration="7139000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1641135817033</created>
@@ -138,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641136724329</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="в процессе 2.0">
+      <created>1641144035606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641144035606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +164,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="в процессе 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="в процессе 1.0" />
+    <MESSAGE value="в процессе 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="в процессе 2.0" />
   </component>
 </project>
