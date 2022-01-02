@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MyArrayList<E> implements List<E>, RandomAccess, Cloneable, java.io.Serializable {
+public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializable {
     private static final int CAPACITY = 5;
     private Object[] array = new Object[CAPACITY];
     private int size = 0;
