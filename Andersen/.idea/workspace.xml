@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97e75b6e-91c5-49ed-9c94-d26081d4d597" name="Changes" comment="в процессе 2.1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW#2/src/main/java/quickSort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW#2/src/main/java/quickSort/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW#2/src/main/java/quickSort/QuickSort.java" afterDir="false" />
+    <list default="true" id="97e75b6e-91c5-49ed-9c94-d26081d4d597" name="Changes" comment="в процессе 3.0">
+      <change afterPath="$PROJECT_DIR$/HW#2/src/main/java/arrayList/List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#2/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW#2/src/main/java/arrayList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#2/src/main/java/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW#2/src/main/java/arrayList/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#2/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW#2/target/classes/MyArrayList.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +18,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -136,9 +130,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Maven.Unnamed" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Maven.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -159,7 +153,8 @@
       <workItem from="1641135614150" duration="1184000" />
       <workItem from="1641136814374" duration="7820000" />
       <workItem from="1641206995307" duration="10942000" />
-      <workItem from="1641285404007" duration="19186000" />
+      <workItem from="1641285404007" duration="20096000" />
+      <workItem from="1641318153883" duration="760000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1641135817033</created>
@@ -196,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641149457070</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="в процессе 3.0">
+      <created>1641311805407</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641311805407</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +220,7 @@
     <MESSAGE value="в процессе 1.0" />
     <MESSAGE value="в процессе 2.0" />
     <MESSAGE value="в процессе 2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="в процессе 2.1" />
+    <MESSAGE value="в процессе 3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="в процессе 3.0" />
   </component>
 </project>
