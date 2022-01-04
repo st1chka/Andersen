@@ -1,21 +1,36 @@
+package arrayList;
+
 import java.util.*;
 
 public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializable {
+
+    //Рзамер массива
     private static final int CAPACITY = 5;
+    //Инициализация массива
     private Object[] array = new Object[CAPACITY];
+    //кол-во элементов
     private int size = 0;
 
 
+    /*
+     * получить сумму кол-ва элементов
+     */
     @Override
     public int size() {
         return size;
     }
 
+    /*
+     * проверка на пустоту
+     */
     @Override
     public boolean isEmpty() {
         return size == 0;
     }
 
+    /*
+     * добавить элемент
+     */
     @Override
     public boolean add(E element) {
         if (size == array.length) {
@@ -25,6 +40,9 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
         return true;
     }
 
+    /*
+     * добавить элемент по индексу
+     */
     @Override
     public void add(int index, E element) {
         if (size == array.length - 1) {
@@ -37,6 +55,9 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
 
     }
 
+    /*
+     * Удалить элемент
+     */
     @Override
     public boolean remove(Object element) {
         for (int i = 0; i < array.length; i++) {
@@ -48,12 +69,10 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
         return false;
     }
 
-    @Override
-    public boolean containsAll(Collection<?> c) {
-        return false;
-    }
 
-
+    /*
+     * Удалить элемент по интексу
+     */
     @Override
     public E remove(int index) {
         array[index] = 0;
@@ -64,14 +83,19 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
         return null;
     }
 
+    /*
+     * Отчистить массив
+     */
     @Override
     public void clear() {
         Arrays.fill(array, null);
     }
 
+    /*
+     * получить элемент по индексу
+     */
     @Override
     public E get(int index) {
-
         try {
             return (E) array[index];
         } catch (ArrayIndexOutOfBoundsException e) {
@@ -80,6 +104,9 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
         return null;
     }
 
+    /*
+     * заменить элемент по индексу
+     */
     @Override
     public E set(int index, Object element) {
 
@@ -91,6 +118,31 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
         return null;
     }
 
+    /*
+     * Удалить коллекцию
+     */
+    @Override
+    public boolean removeAll(Collection<?> c) {
+        array = new Object[array.length];
+        size = 0;
+        return true;
+    }
+
+    /*
+     * Увеличить массив в 2 раза при заполненности/необзодимости
+     */
+    private void resize(int length) {
+        Object[] newArray = new Object[length * 2];
+        System.arraycopy(array, 0, newArray, 0, size);
+        array = newArray;
+    }
+
+    @Override
+    public boolean containsAll(Collection<?> c) {
+        return false;
+    }
+
+
     @Override
     public boolean addAll(Collection<? extends E> c) {
         return false;
@@ -101,12 +153,6 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
         return false;
     }
 
-    @Override
-    public boolean removeAll(Collection<?> c) {
-        array = new Object[array.length];
-        size = 0;
-        return true;
-    }
 
     @Override
     public boolean retainAll(Collection<?> c) {
@@ -158,10 +204,4 @@ public class MyArrayList<E> implements List<E>, RandomAccess, java.io.Serializab
         return null;
     }
 
-
-    private void resize(int length) {
-        Object[] newArray = new Object[length * 2];
-        System.arraycopy(array, 0, newArray, 0, size);
-        array = newArray;
-    }
 }
